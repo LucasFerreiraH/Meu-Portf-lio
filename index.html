@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- O cabeçalho acima define o título da página com a tag "<title>"; a tag <Link> conecta este arquivo HTML ao arquivo CSS. 
+    As definições de tamanho da página, são definidas pelas Tags <meta>.  -->
+
+<body>
+    <header>
+        <h1>Lucas Henrique</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <!-- Nestas tags acima, ao clicar no "href" você será encaminhado para a arte específica da página. -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Meu nome é Lucas e sou um entusiasta de tecnologia com 20 anos, fundador e gestor de marca de roupas, a
+                On Firer, onde me responsabilisei em gerenciar criações de roteiros para shooting-days, criação de
+                estampas intuitívas, elaboração de estratégias de marketing e outros. Atualmente, estou imerso no mundo
+                do
+                desenvolvimento front-end e design UI/UX, onde posso dar vida a ideias criativas através de interfaces
+                intuitivas e esteticamente agradáveis.
+
+                Minhas habilidades se concentram em HTML, CSS e JavaScript, mas estou constantemente expandindo meus
+                conhecimentos para incluir tecnologias como Node.js, Angular, WordPress e Figma.
+
+                Acredito que a combinação de design e desenvolvimento é fundamental para criar experiências digitais
+                excepcionais. Por isso, busco constantemente me aprimorar e aprender novas ferramentas para entregar
+                projetos de alta qualidade.
+
+                Meu objetivo de longo prazo é me tornar um desenvolvedor full-stack, capaz de construir aplicações web
+                completas do início ao fim.
+
+                Se você busca um desenvolvedor apaixonado por tecnologia e com um olhar atento para os detalhes, entre
+                em contato!</p>
+
+            <div> <img src="https://i.pinimg.com/736x/81/c7/af/81c7afc39a298aee9a29a21663fcff88.jpg" alt="ImagemOnfirer"
+                    class="imagem-estilizada"> </div>
+            <!-- Adiciona uma imagem do projeto, "alt" Nomeia a imagem e "class" cria uma classe para a estilização.-->
+            <!-- Definição da área "sobre mim" na pág de web. -->
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto - On Firer</h3>
+                <p>On Firer é uma loja de roupas cristãs desenvolvida como uma aplicação web de e-commerce. O projeto
+                    oferece uma experiência de compra intuitiva e eficiente, destacando duas coleções principais da
+                    marca: uma blusa de frio e uma camiseta. A aplicação permite aos usuários visualizar todos os
+                    produtos disponíveis na página inicial e realizar pesquisas por palavras-chave relacionadas aos
+                    produtos. Os resultados da pesquisa são filtrados com base em título, descrição e tags, e cada item
+                    oferece links diretos para mais informações, incluindo páginas específicas dos produtos e o
+                    Instagram da marca.
+
+                    O projeto utiliza uma combinação de HTML, CSS e JavaScript para criar uma interface amigável e
+                    funcional. A estrutura HTML define a organização da página, incluindo um cabeçalho, um campo de
+                    pesquisa e uma seção para exibir os produtos. O CSS é responsável pela estilização visual, aplicando
+                    um layout responsivo com Flexbox e media queries, além de um tema coeso com imagens de fundo e
+                    gradientes. A lógica da aplicação é gerida pelo JavaScript, que inclui funções para exibir todos os
+                    produtos e realizar pesquisas, além de manipular o DOM para atualizar a página com os resultados.
+
+                    Os arquivos principais do projeto são index.html, que contém a estrutura da aplicação; style.css,
+                    que define a aparência e o layout; app.js, que contém o código JavaScript para exibição e pesquisa;
+                    e dados.js, que armazena os dados dos produtos, como títulos, descrições, links e tags. O On Firer é
+                    um exemplo de como combinar design e desenvolvimento para criar uma experiência de usuário
+                    envolvente e eficaz.</p>
+                <div> <img src="https://i.pinimg.com/736x/47/5d/43/475d43aaca6e5638bdba73e71174bc3c.jpg"
+                        alt="ImagemOnfirer" class="imagem-estilizada"> </div>
+                <!-- Adiciona uma imagem do projeto, "alt" Nomeia a imagem e "class" cria uma classe para a estilização.-->
+
+                <a href="https://github.com/LucasFerreiraH/on_firer" target="_blank">Ver Projeto no GitHub</a>
+            </div>
+            <!-- Definição da área "Projetos"... Observação: a Tag <Div> classifica uma divisão, caso houvesse outros projetos,
+                 ele entraria em uma divisão diferente. -->
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2> <!-- Define um subtítulo.-->
+            <p>Entre em contato comigo através dos meus perfis nas redes sociais:</p> <!--Parágrafo...-->
+            <ul class="redes-sociais">
+                <li><a href="https://github.com/LucasFerreiraH" target="_blank"><i class="fab fa-github"></i>
+                        GitHub</a></li>
+                <!--Lin do meu GitHUb... Obs: "target= _blanck" para o arquivo abrir em outra pág de navegador. e a class" para definir uma classe no css para estilização da página.-->
+                <li><a href="https://www.linkedin.com/in/lucas-henrique-a992b01b5/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i> LinkedIn</a></li> <!-- O mesmo esquema do GitHub acima.-->
+            </ul>
+            <p>Email: <a href="mailto:seu_email@exemplo.com">lucashhenriquees@gmail.com</a></p>
+            <!-- Para entrar em contato via e-mail em qualquer aplicativo de e-mail da pessoa.-->
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Lucas Henrique. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+/* Importa a fonte Oswald do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+/* Reset básico para remover margens e preenchimentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+}
+
+/* Estilo geral do corpo */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://i.pinimg.com/564x/c1/9e/fc/c19efc0f8e3f46ac15054cbadc27d022.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: #e0e0e0; /* Cor do texto claro */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: #000000; /* Cor de fundo do cabeçalho */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff6f00; /* Linha laranja para destaque */
+}
+
+header h1 {
+    color: #ff6f00; /* Título em laranja */
+    font-size: 2.5em;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #e0e0e0; /* Cor dos links no cabeçalho */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6f00; /* Cor dos links ao passar o mouse */
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+/* Centraliza todos os títulos de seções e aplica a fonte Oswald */
+h2 {
+    color: #ff6f00; /* Títulos das seções em laranja */
+    border-bottom: 2px solid #ff6f00; /* Linha de destaque abaixo do título */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o título da seção */
+    font-family: 'Oswald', sans-serif; /* Fonte para os títulos */
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto dos parágrafos */
+    max-width: 800px; /* Limita a largura dos parágrafos para manter o texto legível */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Imagens */
+.imagem-estilizada {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px; /* Bordas arredondadas para a imagem */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Links */
+a {
+    color: #ff6f00; /* Cor dos links */
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #e64a19; /* Cor do link ao passar o mouse */
+    text-decoration: underline;
+}
+
+/* Lista de redes sociais */
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centraliza a lista de redes sociais */
+}
+
+.redes-sociais li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.redes-sociais a {
+    color: #ff6f00; /* Cor dos links nas redes sociais */
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: #e64a19; /* Cor dos links das redes sociais ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background: #333; /* Cor de fundo do rodapé */
+    color: #e0e0e0; /* Cor do texto no rodapé */
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #ff6f00; /* Linha laranja para destaque */
+}
+
+/* Centraliza o link "Ver Projeto no GitHub" */
+.projeto a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
