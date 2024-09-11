@@ -50,6 +50,6 @@ O portfólio é composto por várias seções principais:
 
 ## Visualização
 
-Você pode visualizar o portfólio online [aqui]([https://seu-link-de-visualizacao](https://meu-portfolio-gamma-lyart.vercel.app/)).
+Você pode visualizar o portfólio online [aqui] [[https://seu-link-de-visualizacao](https://meu-portfolio-gamma-lyart.vercel.app/)]
 
 
