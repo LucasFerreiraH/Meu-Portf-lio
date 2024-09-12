@@ -1,0 +1,251 @@
+/* Importa a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset básico para remover margens e preenchimentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo geral do corpo */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://i.pinimg.com/564x/f5/3a/30/f53a30e572b091f9123c75873bf6b936.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: #000000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff6f00;
+}
+
+header h1 {
+    color: #ff6f00;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6f00;
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+/* Centraliza todos os títulos de seções e aplica a fonte Poppins */
+h2 {
+    color: #ff6f00;
+    border-bottom: 2px solid #ff6f00;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* Imagens */
+.imagem-estilizada {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+}
+
+/* Links */
+a {
+    color: #ff6f00;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #e64a19;
+    text-decoration: underline;
+}
+
+/* Lista de redes sociais */
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.redes-sociais a {
+    color: #ff6f00;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: #e64a19;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #ff6f00;
+}
+
+/* Estiliza a seção de projetos para centralizar o conteúdo */
+#projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estiliza cada projeto */
+.projeto {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* Estiliza a imagem do projeto */
+.projeto .imagem-estilizada {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Estiliza o link do GitHub */
+.projeto a {
+    color: orangered;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Adiciona hover ao link do GitHub */
+.projeto a:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza a seção "sobre" */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contêiner para a imagem e o texto */
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Estiliza a imagem do projeto */
+.sobre-imagem {
+    flex: 0 0 auto;
+}
+
+.imagem-estilizada {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estiliza o texto */
+p {
+    flex: 1;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Consultas de Mídia para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Para telas menores que 768px */
+    body {
+        font-size: 14px; /* Ajustar o tamanho da fonte */
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-estilizada {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .projeto {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
